@@ -9,7 +9,6 @@ NC='\033[0m'
 print_color() {
     printf "${1}${2}${NC}\n"
 }
-
 print_header() {
     print_color $BLUE "
    ___                       _               
